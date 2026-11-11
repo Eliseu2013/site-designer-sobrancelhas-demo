@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cinzel', Georgia, 'Times New Roman', serif;
+    --font-sans: 'Montserrat', system-ui, -apple-system, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0c0c0c;
+    color: #e5e5e5;
+    font-weight: 300;
+  }
+
+  h1, h2, h3, h4, .font-serif-luxury {
+    font-family: var(--font-serif);
+    letter-spacing: 0.15em;
+  }
+}
+
+/* Tipografia de Alta Costura */
+.font-editorial-serif {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+/* Linha pontilhada de menu 5 estrelas */
+.menu-leader {
+  flex-grow: 1;
+  border-bottom: 1px dotted rgba(197, 160, 89, 0.35);
+  margin: 0 1rem;
+  position: relative;
+  top: -4px;
+}
+
+/* Cores e bordas sutis */
+.border-hairline {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.border-gold-subtle {
+  border-color: rgba(197, 160, 89, 0.25);
+}
+
+.text-gold {
+  color: #c5a059;
+}
+
+.text-gold-light {
+  color: #e8d5b5;
+}
+
+/* Botão fantasma minimalista */
+.btn-ghost-luxury {
+  border: 1px solid rgba(197, 160, 89, 0.4);
+  background: transparent;
+  color: #e5e5e5;
+  transition: all 0.25s ease;
+  border-radius: 2px;
+}
+
+.btn-ghost-luxury:hover {
+  border-color: #c5a059;
+  color: #c5a059;
+  background: rgba(197, 160, 89, 0.05);
+}
+
+/* Barra de rolagem minimalista */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0c0c0c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c5a059;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Studio Olhar (Demo) - Designer de Sobrancelhas",
+  "description": "Site e catálogo de serviços de design de sobrancelhas Studio Olhar (Demo) com agendamento direto pelo WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
